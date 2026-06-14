@@ -1,0 +1,553 @@
+[14Jun2026 20:35:54.994] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_client, --version, MOD_DEV, --assetIndex, 17, --assetsDir, /home/nils/.gradle/caches/forge_gradle/assets, --gameDir, .]
+[14Jun2026 20:35:54.999] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.7+6-LTS
+[14Jun2026 20:35:54.999] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.7 by Eclipse Adoptium; OS Linux arch amd64 version 6.17.0-35-generic
+[14Jun2026 20:35:55.017] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [forge_userdev_client,forge_dev_data,minecraft,forge_userdev_server_gametest,forge_dev_client,forge_userdev_data,forge_dev_server_gametest,testharness,forge_userdev_server,forge_client,forge_dev_server,forge_server]
+[14Jun2026 20:35:55.022] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[14Jun2026 20:35:55.035] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[14Jun2026 20:35:55.043] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[14Jun2026 20:35:55.045] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /home/nils/bin/programming/java/minecraft/fabric/cheap craftable gunpowder/run
+[14Jun2026 20:35:55.046] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /home/nils/bin/programming/java/minecraft/fabric/cheap craftable gunpowder/run/mods
+[14Jun2026 20:35:55.046] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /home/nils/bin/programming/java/minecraft/fabric/cheap craftable gunpowder/run/config
+[14Jun2026 20:35:55.046] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /home/nils/bin/programming/java/minecraft/fabric/cheap craftable gunpowder/run/config/fml.toml
+[14Jun2026 20:35:55.077] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[14Jun2026 20:35:55.162] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[14Jun2026 20:35:55.238] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[14Jun2026 20:35:55.279] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer service: fml: /
+[14Jun2026 20:35:55.281] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer service: mixin: /
+[14Jun2026 20:35:55.282] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[14Jun2026 20:35:55.283] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[14Jun2026 20:35:55.283] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[14Jun2026 20:35:55.284] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[14Jun2026 20:35:55.300] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Detected version data : VersionInfo[forgeVersion=52.1.14, mcVersion=1.21.1, mcpVersion=20240808.132146, forgeGroup=net.minecraftforge]
+[14Jun2026 20:35:55.302] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 52.1.14
+[14Jun2026 20:35:55.302] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 52.1.14 loading
+[14Jun2026 20:35:55.302] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Requesting CoreMods to not apply the fix for ASMAPI.findFirstInstructionBefore by default
+[14Jun2026 20:35:55.303] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ModLauncher version: 10.2.4
+[14Jun2026 20:35:55.303] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found AccessTransformer version: 8.2.2
+[14Jun2026 20:35:55.304] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found EventBus version: 6.2.33
+[14Jun2026 20:35:55.304] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found RuntimeDistCleaner version: 52.1.14
+[14Jun2026 20:35:55.306] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/]: CoreMods will preserve legacy behavior of ASMAPI.findFirstInstructionBefore for backwards-compatibility
+[14Jun2026 20:35:55.306] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.2.6
+[14Jun2026 20:35:55.307] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI version: 7.1.5
+[14Jun2026 20:35:55.307] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[14Jun2026 20:35:55.308] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[14Jun2026 20:35:55.315] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[14Jun2026 20:35:55.316] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[14Jun2026 20:35:55.353] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in SecureModuleClassLoader[SECURE-BOOTSTRAP]@1564984895
+[14Jun2026 20:35:55.368] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///home/nils/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=CLIENT
+[14Jun2026 20:35:55.371] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[14Jun2026 20:35:55.372] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[14Jun2026 20:35:55.373] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[14Jun2026 20:35:55.374] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[14Jun2026 20:35:55.374] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[14Jun2026 20:35:55.375] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[14Jun2026 20:35:55.376] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[14Jun2026 20:35:55.377] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[14Jun2026 20:35:55.377] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[14Jun2026 20:35:55.378] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /home/nils/bin/programming/java/minecraft/fabric/cheap craftable gunpowder/run
+[14Jun2026 20:35:55.378] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /home/nils/bin/programming/java/minecraft/fabric/cheap craftable gunpowder/run/mods
+[14Jun2026 20:35:55.379] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /home/nils/bin/programming/java/minecraft/fabric/cheap craftable gunpowder/run/config
+[14Jun2026 20:35:55.379] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /home/nils/bin/programming/java/minecraft/fabric/cheap craftable gunpowder/run/config/fml.toml
+[14Jun2026 20:35:55.379] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[14Jun2026 20:35:55.383] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[14Jun2026 20:35:55.386] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[14Jun2026 20:35:55.387] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forge_userdev_client as launch service
+[14Jun2026 20:35:55.395] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[14Jun2026 20:35:55.395] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[14Jun2026 20:35:55.396] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=net.minecraftforge.fml.loading.MCPNamingService@381cad29}
+[14Jun2026 20:35:55.396] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[14Jun2026 20:35:55.397] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[14Jun2026 20:35:55.398] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[14Jun2026 20:35:55.400] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[14Jun2026 20:35:55.400] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[14Jun2026 20:35:55.445] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(minecraft:null),(classpath:null),(forge_dev_locator:null),(forge_userdev_locator:null)
+[14Jun2026 20:35:55.447] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[14Jun2026 20:35:55.476] [EarlyDisplay/INFO] [EARLYDISPLAY/]: GL info: Mesa Intel(R) Graphics (RPL-U) GL version 4.6 (Core Profile) Mesa 26.0.6 - kisak-mesa PPA, Intel
+[14Jun2026 20:35:56.080] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {minecraft} mods - versions {1.21.1}
+[14Jun2026 20:35:56.260] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /home/nils/bin/programming/java/minecraft/fabric/cheap craftable gunpowder/build/sourcesSets/main
+[14Jun2026 20:35:56.268] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {cheap_craftable_gunpowder} mods - versions {1.0-SNAPSHOT}
+[14Jun2026 20:35:56.406] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[14Jun2026 20:35:56.411] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {52.1.14}
+[14Jun2026 20:35:56.417] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from , it does not contain dependency information.
+[14Jun2026 20:35:56.418] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from , it does not contain dependency information.
+[14Jun2026 20:35:56.418] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from javafmllanguage-1.21.1-52.1.14.jar, it does not contain dependency information.
+[14Jun2026 20:35:56.418] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mclanguage-1.21.1-52.1.14.jar, it does not contain dependency information.
+[14Jun2026 20:35:56.418] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from lowcodelanguage-1.21.1-52.1.14.jar, it does not contain dependency information.
+[14Jun2026 20:35:56.418] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from fmlcore-1.21.1-52.1.14.jar, it does not contain dependency information.
+[14Jun2026 20:35:56.418] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from main, it does not contain dependency information.
+[14Jun2026 20:35:56.441] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[14Jun2026 20:35:56.443] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {minecraft} mods - versions {1.21.1}
+[14Jun2026 20:35:56.445] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[14Jun2026 20:35:56.447] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[14Jun2026 20:35:56.448] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {52.1.14}
+[14Jun2026 20:35:56.448] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[14Jun2026 20:35:56.453] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[14Jun2026 20:35:56.453] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
+[14Jun2026 20:35:56.453] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod /coremods/field_to_method.js
+[14Jun2026 20:35:56.454] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod /coremods/method_redirector.js
+[14Jun2026 20:35:56.454] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /home/nils/bin/programming/java/minecraft/fabric/cheap craftable gunpowder/build/sourcesSets/main
+[14Jun2026 20:35:56.455] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {cheap_craftable_gunpowder} mods - versions {1.0-SNAPSHOT}
+[14Jun2026 20:35:56.455] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /home/nils/bin/programming/java/minecraft/fabric/cheap craftable gunpowder/build/sourcesSets/main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[52,)]]
+[14Jun2026 20:35:56.456] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[14Jun2026 20:35:56.465] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[14Jun2026 20:35:56.466] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 52
+[14Jun2026 20:35:56.466] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[14Jun2026 20:35:56.467] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 52.1.14
+[14Jun2026 20:35:56.468] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[14Jun2026 20:35:56.468] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[14Jun2026 20:35:56.468] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[14Jun2026 20:35:56.486] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 2 mod requirements (2 mandatory, 0 optional)
+[14Jun2026 20:35:56.487] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[14Jun2026 20:35:56.654] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 37504 method mappings from methods.csv
+[14Jun2026 20:35:56.690] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 35622 field mappings from fields.csv
+[14Jun2026 20:35:56.710] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[14Jun2026 20:35:56.711] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[14Jun2026 20:35:56.711] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[14Jun2026 20:35:56.712] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[14Jun2026 20:35:56.712] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[14Jun2026 20:35:56.712] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from /coremods/field_to_method.js
+[14Jun2026 20:35:56.850] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[14Jun2026 20:35:56.850] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from /coremods/method_redirector.js
+[14Jun2026 20:35:56.947] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[14Jun2026 20:35:56.959] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@341b13a8 to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[14Jun2026 20:35:56.962] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48eb001a to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[14Jun2026 20:35:56.962] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@34332b8d to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[14Jun2026 20:35:56.962] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@724b939e to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[14Jun2026 20:35:56.963] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6f8aba08 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[14Jun2026 20:35:56.963] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[14Jun2026 20:35:56.963] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[14Jun2026 20:35:56.963] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[14Jun2026 20:35:56.963] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[14Jun2026 20:35:56.964] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[14Jun2026 20:35:56.964] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[14Jun2026 20:35:56.964] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[14Jun2026 20:35:56.964] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[14Jun2026 20:35:56.965] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[14Jun2026 20:35:56.965] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawner;} {} {V}
+[14Jun2026 20:35:56.965] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[14Jun2026 20:35:56.965] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[14Jun2026 20:35:56.966] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[14Jun2026 20:35:56.966] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[14Jun2026 20:35:56.966] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[14Jun2026 20:35:56.966] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[14Jun2026 20:35:56.966] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[14Jun2026 20:35:56.967] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[14Jun2026 20:35:56.967] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[14Jun2026 20:35:56.967] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[14Jun2026 20:35:56.967] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[14Jun2026 20:35:56.968] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[14Jun2026 20:35:56.968] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ff19c33 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[14Jun2026 20:35:56.968] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[14Jun2026 20:35:57.038] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[14Jun2026 20:35:57.038] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[14Jun2026 20:35:57.039] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixin.synthetic)
+[14Jun2026 20:35:57.039] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixin.synthetic)
+[14Jun2026 20:35:57.039] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixin.synthetic)
+[14Jun2026 20:35:57.051] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixin.synthetic)
+[14Jun2026 20:35:57.052] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixin.synthetic)
+[14Jun2026 20:35:57.053] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixin.synthetic)]
+[14Jun2026 20:35:57.053] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[14Jun2026 20:35:57.053] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[14Jun2026 20:35:57.054] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[14Jun2026 20:35:57.054] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[14Jun2026 20:35:57.054] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[14Jun2026 20:35:57.054] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[14Jun2026 20:35:57.054] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(net.minecraftforge.forge)
+[14Jun2026 20:35:57.054] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(net.minecraftforge.forge)
+[14Jun2026 20:35:57.055] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(net.minecraftforge.forge)
+[14Jun2026 20:35:57.055] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(net.minecraftforge.forge)
+[14Jun2026 20:35:57.055] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(net.minecraftforge.forge)
+[14Jun2026 20:35:57.055] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.minecraftforge.forge)]
+[14Jun2026 20:35:57.055] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(cheap_craftable_gunpowder)
+[14Jun2026 20:35:57.055] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(cheap_craftable_gunpowder)
+[14Jun2026 20:35:57.056] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(cheap_craftable_gunpowder)
+[14Jun2026 20:35:57.056] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(cheap_craftable_gunpowder)
+[14Jun2026 20:35:57.056] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(cheap_craftable_gunpowder)
+[14Jun2026 20:35:57.056] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(cheap_craftable_gunpowder)]
+[14Jun2026 20:35:57.056] [main/DEBUG] [mixin/]: inject() running with 5 agents
+[14Jun2026 20:35:57.056] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[14Jun2026 20:35:57.057] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixin.synthetic)]
+[14Jun2026 20:35:57.057] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[14Jun2026 20:35:57.057] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.minecraftforge.forge)]
+[14Jun2026 20:35:57.057] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(cheap_craftable_gunpowder)]
+[14Jun2026 20:35:57.058] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_client' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /home/nils/.gradle/caches/forge_gradle/assets, --assetIndex, 17]
+[14Jun2026 20:35:57.087] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[14Jun2026 20:35:57.264] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[14Jun2026 20:35:57.267] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[14Jun2026 20:35:57.268] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[14Jun2026 20:35:58.018] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///home/nils/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.10/b1d8ab82d11d92fd639b56d639f8f46f739dd5fa/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/nils/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.10/b1d8ab82d11d92fd639b56d639f8f46f739dd5fa/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///home/nils/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.10/b1d8ab82d11d92fd639b56d639f8f46f739dd5fa/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/nils/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.10/b1d8ab82d11d92fd639b56d639f8f46f739dd5fa/oshi-core-6.4.10.jar!/oshi.properties]
+[14Jun2026 20:35:58.035] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[14Jun2026 20:35:58.036] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[14Jun2026 20:35:58.040] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/stat
+[14Jun2026 20:35:58.047] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[14Jun2026 20:35:58.047] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[14Jun2026 20:35:58.047] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[14Jun2026 20:35:58.047] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[14Jun2026 20:35:58.047] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[14Jun2026 20:35:58.048] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[14Jun2026 20:35:58.048] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[14Jun2026 20:35:58.049] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[14Jun2026 20:35:58.049] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[14Jun2026 20:35:58.049] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[14Jun2026 20:35:58.050] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[14Jun2026 20:35:58.050] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[14Jun2026 20:35:58.050] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[14Jun2026 20:35:58.050] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[14Jun2026 20:35:58.050] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[14Jun2026 20:35:58.050] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[14Jun2026 20:35:58.051] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[14Jun2026 20:35:58.051] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[14Jun2026 20:35:58.051] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[14Jun2026 20:35:58.051] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[14Jun2026 20:35:58.051] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[14Jun2026 20:35:58.052] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[14Jun2026 20:35:58.052] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[14Jun2026 20:35:58.052] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[14Jun2026 20:35:58.052] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[14Jun2026 20:35:58.052] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[14Jun2026 20:35:58.052] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[14Jun2026 20:35:58.052] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[14Jun2026 20:35:58.052] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[14Jun2026 20:35:58.053] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[14Jun2026 20:35:58.053] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[14Jun2026 20:35:58.053] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[14Jun2026 20:35:58.053] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[14Jun2026 20:35:58.053] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[14Jun2026 20:35:58.053] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[14Jun2026 20:35:58.053] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[14Jun2026 20:35:58.053] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[14Jun2026 20:35:58.054] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[14Jun2026 20:35:58.054] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[14Jun2026 20:35:58.054] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[14Jun2026 20:35:58.054] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[14Jun2026 20:35:58.054] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[14Jun2026 20:35:58.054] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[14Jun2026 20:35:58.054] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[14Jun2026 20:35:58.054] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[14Jun2026 20:35:58.054] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[14Jun2026 20:35:58.055] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[14Jun2026 20:35:58.055] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[14Jun2026 20:35:58.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[14Jun2026 20:35:58.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[14Jun2026 20:35:58.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[14Jun2026 20:35:58.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[14Jun2026 20:35:58.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[14Jun2026 20:35:58.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[14Jun2026 20:35:58.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[14Jun2026 20:35:58.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[14Jun2026 20:35:58.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[14Jun2026 20:35:58.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[14Jun2026 20:35:58.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[14Jun2026 20:35:58.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[14Jun2026 20:35:58.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[14Jun2026 20:35:58.058] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[14Jun2026 20:35:58.058] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[14Jun2026 20:35:58.058] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[14Jun2026 20:35:58.058] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[14Jun2026 20:35:58.058] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[14Jun2026 20:35:58.058] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[14Jun2026 20:35:58.058] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[14Jun2026 20:35:58.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[14Jun2026 20:35:58.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[14Jun2026 20:35:58.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[14Jun2026 20:35:58.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[14Jun2026 20:35:58.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[14Jun2026 20:35:58.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[14Jun2026 20:35:58.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[14Jun2026 20:35:58.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[14Jun2026 20:35:58.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[14Jun2026 20:35:58.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[14Jun2026 20:35:58.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[14Jun2026 20:35:58.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[14Jun2026 20:35:58.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[14Jun2026 20:35:58.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[14Jun2026 20:35:58.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[14Jun2026 20:35:58.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[14Jun2026 20:35:58.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[14Jun2026 20:35:58.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[14Jun2026 20:35:58.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[14Jun2026 20:35:58.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[14Jun2026 20:35:58.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[14Jun2026 20:35:58.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[14Jun2026 20:35:58.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[14Jun2026 20:35:58.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[14Jun2026 20:35:58.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[14Jun2026 20:35:58.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[14Jun2026 20:35:58.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[14Jun2026 20:35:58.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[14Jun2026 20:35:58.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+[14Jun2026 20:35:58.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+[14Jun2026 20:35:58.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/level
+[14Jun2026 20:35:58.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/level
+[14Jun2026 20:35:58.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/type
+[14Jun2026 20:35:58.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/type
+[14Jun2026 20:35:58.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/ways_of_associativity
+[14Jun2026 20:35:58.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/ways_of_associativity
+[14Jun2026 20:35:58.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/coherency_line_size
+[14Jun2026 20:35:58.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/coherency_line_size
+[14Jun2026 20:35:58.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/size
+[14Jun2026 20:35:58.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/size
+[14Jun2026 20:35:58.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/level
+[14Jun2026 20:35:58.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/level
+[14Jun2026 20:35:58.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/type
+[14Jun2026 20:35:58.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/type
+[14Jun2026 20:35:58.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/ways_of_associativity
+[14Jun2026 20:35:58.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/ways_of_associativity
+[14Jun2026 20:35:58.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/coherency_line_size
+[14Jun2026 20:35:58.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/coherency_line_size
+[14Jun2026 20:35:58.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/size
+[14Jun2026 20:35:58.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/size
+[14Jun2026 20:35:58.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/level
+[14Jun2026 20:35:58.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/level
+[14Jun2026 20:35:58.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/type
+[14Jun2026 20:35:58.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/type
+[14Jun2026 20:35:58.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/ways_of_associativity
+[14Jun2026 20:35:58.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/ways_of_associativity
+[14Jun2026 20:35:58.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/coherency_line_size
+[14Jun2026 20:35:58.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/coherency_line_size
+[14Jun2026 20:35:58.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/size
+[14Jun2026 20:35:58.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/size
+[14Jun2026 20:35:58.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/level
+[14Jun2026 20:35:58.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/level
+[14Jun2026 20:35:58.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/type
+[14Jun2026 20:35:58.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/type
+[14Jun2026 20:35:58.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/ways_of_associativity
+[14Jun2026 20:35:58.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/ways_of_associativity
+[14Jun2026 20:35:58.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/coherency_line_size
+[14Jun2026 20:35:58.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/coherency_line_size
+[14Jun2026 20:35:58.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/size
+[14Jun2026 20:35:58.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/size
+[14Jun2026 20:35:58.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[14Jun2026 20:35:58.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[14Jun2026 20:35:58.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[14Jun2026 20:35:58.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[14Jun2026 20:35:58.074] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+[14Jun2026 20:35:58.074] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+[14Jun2026 20:35:58.074] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/level
+[14Jun2026 20:35:58.074] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/level
+[14Jun2026 20:35:58.075] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/type
+[14Jun2026 20:35:58.075] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/type
+[14Jun2026 20:35:58.075] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/ways_of_associativity
+[14Jun2026 20:35:58.075] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/ways_of_associativity
+[14Jun2026 20:35:58.075] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/coherency_line_size
+[14Jun2026 20:35:58.075] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/coherency_line_size
+[14Jun2026 20:35:58.076] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/size
+[14Jun2026 20:35:58.076] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/size
+[14Jun2026 20:35:58.076] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/level
+[14Jun2026 20:35:58.076] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/level
+[14Jun2026 20:35:58.076] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/type
+[14Jun2026 20:35:58.076] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/type
+[14Jun2026 20:35:58.077] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/ways_of_associativity
+[14Jun2026 20:35:58.077] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/ways_of_associativity
+[14Jun2026 20:35:58.077] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/coherency_line_size
+[14Jun2026 20:35:58.077] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/coherency_line_size
+[14Jun2026 20:35:58.078] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/size
+[14Jun2026 20:35:58.078] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/size
+[14Jun2026 20:35:58.078] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/level
+[14Jun2026 20:35:58.078] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/level
+[14Jun2026 20:35:58.078] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/type
+[14Jun2026 20:35:58.078] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/type
+[14Jun2026 20:35:58.079] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/ways_of_associativity
+[14Jun2026 20:35:58.079] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/ways_of_associativity
+[14Jun2026 20:35:58.079] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/coherency_line_size
+[14Jun2026 20:35:58.079] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/coherency_line_size
+[14Jun2026 20:35:58.079] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/size
+[14Jun2026 20:35:58.079] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/size
+[14Jun2026 20:35:58.080] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/level
+[14Jun2026 20:35:58.080] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/level
+[14Jun2026 20:35:58.080] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/type
+[14Jun2026 20:35:58.080] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/type
+[14Jun2026 20:35:58.080] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/ways_of_associativity
+[14Jun2026 20:35:58.080] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/ways_of_associativity
+[14Jun2026 20:35:58.081] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/coherency_line_size
+[14Jun2026 20:35:58.081] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/coherency_line_size
+[14Jun2026 20:35:58.081] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/size
+[14Jun2026 20:35:58.081] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/size
+[14Jun2026 20:35:58.082] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/topology/core_id
+[14Jun2026 20:35:58.083] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/topology/core_id
+[14Jun2026 20:35:58.083] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/topology/physical_package_id
+[14Jun2026 20:35:58.083] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/topology/physical_package_id
+[14Jun2026 20:35:58.083] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cpu_capacity
+[14Jun2026 20:35:58.084] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cpu_capacity
+[14Jun2026 20:35:58.084] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/level
+[14Jun2026 20:35:58.084] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/level
+[14Jun2026 20:35:58.084] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/type
+[14Jun2026 20:35:58.085] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/type
+[14Jun2026 20:35:58.085] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/ways_of_associativity
+[14Jun2026 20:35:58.085] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/ways_of_associativity
+[14Jun2026 20:35:58.085] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/coherency_line_size
+[14Jun2026 20:35:58.085] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/coherency_line_size
+[14Jun2026 20:35:58.085] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/size
+[14Jun2026 20:35:58.086] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/size
+[14Jun2026 20:35:58.086] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/level
+[14Jun2026 20:35:58.086] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/level
+[14Jun2026 20:35:58.086] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/type
+[14Jun2026 20:35:58.087] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/type
+[14Jun2026 20:35:58.087] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/ways_of_associativity
+[14Jun2026 20:35:58.087] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/ways_of_associativity
+[14Jun2026 20:35:58.087] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/coherency_line_size
+[14Jun2026 20:35:58.087] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/coherency_line_size
+[14Jun2026 20:35:58.088] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/size
+[14Jun2026 20:35:58.088] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/size
+[14Jun2026 20:35:58.088] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/level
+[14Jun2026 20:35:58.088] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/level
+[14Jun2026 20:35:58.088] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/type
+[14Jun2026 20:35:58.089] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/type
+[14Jun2026 20:35:58.089] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/ways_of_associativity
+[14Jun2026 20:35:58.089] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/ways_of_associativity
+[14Jun2026 20:35:58.089] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/coherency_line_size
+[14Jun2026 20:35:58.089] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/coherency_line_size
+[14Jun2026 20:35:58.089] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/size
+[14Jun2026 20:35:58.090] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/size
+[14Jun2026 20:35:58.090] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/level
+[14Jun2026 20:35:58.090] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/level
+[14Jun2026 20:35:58.090] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/type
+[14Jun2026 20:35:58.090] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/type
+[14Jun2026 20:35:58.090] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/ways_of_associativity
+[14Jun2026 20:35:58.091] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/ways_of_associativity
+[14Jun2026 20:35:58.091] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/coherency_line_size
+[14Jun2026 20:35:58.091] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/coherency_line_size
+[14Jun2026 20:35:58.091] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/size
+[14Jun2026 20:35:58.091] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/size
+[14Jun2026 20:35:58.094] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/topology/core_id
+[14Jun2026 20:35:58.094] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/topology/core_id
+[14Jun2026 20:35:58.094] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/topology/physical_package_id
+[14Jun2026 20:35:58.095] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/topology/physical_package_id
+[14Jun2026 20:35:58.095] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cpu_capacity
+[14Jun2026 20:35:58.095] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cpu_capacity
+[14Jun2026 20:35:58.095] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/level
+[14Jun2026 20:35:58.095] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/level
+[14Jun2026 20:35:58.095] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/type
+[14Jun2026 20:35:58.095] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/type
+[14Jun2026 20:35:58.095] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/ways_of_associativity
+[14Jun2026 20:35:58.095] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/ways_of_associativity
+[14Jun2026 20:35:58.096] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/coherency_line_size
+[14Jun2026 20:35:58.096] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/coherency_line_size
+[14Jun2026 20:35:58.096] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/size
+[14Jun2026 20:35:58.096] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/size
+[14Jun2026 20:35:58.096] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/level
+[14Jun2026 20:35:58.096] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/level
+[14Jun2026 20:35:58.096] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/type
+[14Jun2026 20:35:58.096] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/type
+[14Jun2026 20:35:58.096] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/ways_of_associativity
+[14Jun2026 20:35:58.096] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/ways_of_associativity
+[14Jun2026 20:35:58.096] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/coherency_line_size
+[14Jun2026 20:35:58.097] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/coherency_line_size
+[14Jun2026 20:35:58.097] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/size
+[14Jun2026 20:35:58.097] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/size
+[14Jun2026 20:35:58.097] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/level
+[14Jun2026 20:35:58.097] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/level
+[14Jun2026 20:35:58.097] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/type
+[14Jun2026 20:35:58.097] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/type
+[14Jun2026 20:35:58.097] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/ways_of_associativity
+[14Jun2026 20:35:58.097] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/ways_of_associativity
+[14Jun2026 20:35:58.098] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/coherency_line_size
+[14Jun2026 20:35:58.098] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/coherency_line_size
+[14Jun2026 20:35:58.098] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/size
+[14Jun2026 20:35:58.098] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/size
+[14Jun2026 20:35:58.098] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/level
+[14Jun2026 20:35:58.098] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/level
+[14Jun2026 20:35:58.098] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/type
+[14Jun2026 20:35:58.098] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/type
+[14Jun2026 20:35:58.098] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/ways_of_associativity
+[14Jun2026 20:35:58.099] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/ways_of_associativity
+[14Jun2026 20:35:58.099] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/coherency_line_size
+[14Jun2026 20:35:58.099] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/coherency_line_size
+[14Jun2026 20:35:58.099] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/size
+[14Jun2026 20:35:58.099] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/size
+[14Jun2026 20:35:58.099] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/topology/core_id
+[14Jun2026 20:35:58.099] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/topology/core_id
+[14Jun2026 20:35:58.100] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/topology/physical_package_id
+[14Jun2026 20:35:58.100] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/topology/physical_package_id
+[14Jun2026 20:35:58.100] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cpu_capacity
+[14Jun2026 20:35:58.100] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cpu_capacity
+[14Jun2026 20:35:58.100] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/level
+[14Jun2026 20:35:58.100] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/level
+[14Jun2026 20:35:58.100] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/type
+[14Jun2026 20:35:58.100] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/type
+[14Jun2026 20:35:58.101] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/ways_of_associativity
+[14Jun2026 20:35:58.101] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/ways_of_associativity
+[14Jun2026 20:35:58.101] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/coherency_line_size
+[14Jun2026 20:35:58.101] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/coherency_line_size
+[14Jun2026 20:35:58.101] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/size
+[14Jun2026 20:35:58.101] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/size
+[14Jun2026 20:35:58.101] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/level
+[14Jun2026 20:35:58.101] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/level
+[14Jun2026 20:35:58.101] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/type
+[14Jun2026 20:35:58.101] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/type
+[14Jun2026 20:35:58.102] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/ways_of_associativity
+[14Jun2026 20:35:58.102] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/ways_of_associativity
+[14Jun2026 20:35:58.102] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/coherency_line_size
+[14Jun2026 20:35:58.102] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/coherency_line_size
+[14Jun2026 20:35:58.102] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/size
+[14Jun2026 20:35:58.102] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/size
+[14Jun2026 20:35:58.102] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/level
+[14Jun2026 20:35:58.102] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/level
+[14Jun2026 20:35:58.102] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/type
+[14Jun2026 20:35:58.102] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/type
+[14Jun2026 20:35:58.103] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/ways_of_associativity
+[14Jun2026 20:35:58.103] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/ways_of_associativity
+[14Jun2026 20:35:58.103] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/coherency_line_size
+[14Jun2026 20:35:58.103] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/coherency_line_size
+[14Jun2026 20:35:58.103] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/size
+[14Jun2026 20:35:58.103] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/size
+[14Jun2026 20:35:58.103] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/level
+[14Jun2026 20:35:58.103] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/level
+[14Jun2026 20:35:58.103] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/type
+[14Jun2026 20:35:58.103] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/type
+[14Jun2026 20:35:58.103] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/ways_of_associativity
+[14Jun2026 20:35:58.104] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/ways_of_associativity
+[14Jun2026 20:35:58.104] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/coherency_line_size
+[14Jun2026 20:35:58.104] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/coherency_line_size
+[14Jun2026 20:35:58.104] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/size
+[14Jun2026 20:35:58.104] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/size
+[14Jun2026 20:35:58.105] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/topology/core_id
+[14Jun2026 20:35:58.105] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/topology/core_id
+[14Jun2026 20:35:58.105] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/topology/physical_package_id
+[14Jun2026 20:35:58.105] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/topology/physical_package_id
+[14Jun2026 20:35:58.105] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cpu_capacity
+[14Jun2026 20:35:58.105] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cpu_capacity
+[14Jun2026 20:35:58.105] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/level
+[14Jun2026 20:35:58.105] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/level
+[14Jun2026 20:35:58.106] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/type
+[14Jun2026 20:35:58.106] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/type
+[14Jun2026 20:35:58.106] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/ways_of_associativity
+[14Jun2026 20:35:58.106] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/ways_of_associativity
+[14Jun2026 20:35:58.106] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/coherency_line_size
+[14Jun2026 20:35:58.106] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/coherency_line_size
+[14Jun2026 20:35:58.106] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/size
+[14Jun2026 20:35:58.106] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/size
+[14Jun2026 20:35:58.106] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/level
+[14Jun2026 20:35:58.107] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/level
+[14Jun2026 20:35:58.107] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/type
+[14Jun2026 20:35:58.107] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/type
+[14Jun2026 20:35:58.107] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/ways_of_associativity
+[14Jun2026 20:35:58.107] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/ways_of_associativity
+[14Jun2026 20:35:58.107] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/coherency_line_size
+[14Jun2026 20:35:58.108] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/coherency_line_size
+[14Jun2026 20:35:58.108] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/size
+[14Jun2026 20:35:58.108] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/size
+[14Jun2026 20:35:58.108] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/level
+[14Jun2026 20:35:58.108] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/level
+[14Jun2026 20:35:58.108] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/type
+[14Jun2026 20:35:58.108] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/type
+[14Jun2026 20:35:58.109] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/ways_of_associativity
+[14Jun2026 20:35:58.109] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/ways_of_associativity
+[14Jun2026 20:35:58.109] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/coherency_line_size
+[14Jun2026 20:35:58.109] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/coherency_line_size
+[14Jun2026 20:35:58.109] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/size
+[14Jun2026 20:35:58.109] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/size
+[14Jun2026 20:35:58.110] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/level
+[14Jun2026 20:35:58.110] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/level
+[14Jun2026 20:35:58.110] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/type
+[14Jun2026 20:35:58.110] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/type
+[14Jun2026 20:35:58.110] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/ways_of_associativity
+[14Jun2026 20:35:58.110] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/ways_of_associativity
+[14Jun2026 20:35:58.111] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/coherency_line_size
+[14Jun2026 20:35:58.111] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/coherency_line_size
+[14Jun2026 20:35:58.111] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/size
+[14Jun2026 20:35:58.111] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/size
+[14Jun2026 20:35:58.114] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[14Jun2026 20:35:58.140] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 226 Datafixer optimizations took 148 milliseconds
+[14Jun2026 20:35:58.565] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[14Jun2026 20:35:58.567] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///home/nils/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.10/b1d8ab82d11d92fd639b56d639f8f46f739dd5fa/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/nils/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.10/b1d8ab82d11d92fd639b56d639f8f46f739dd5fa/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///home/nils/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.10/b1d8ab82d11d92fd639b56d639f8f46f739dd5fa/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/nils/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.10/b1d8ab82d11d92fd639b56d639f8f46f739dd5fa/oshi-core-6.4.10.jar!/oshi.architecture.properties]

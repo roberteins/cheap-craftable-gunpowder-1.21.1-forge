@@ -1,0 +1,7 @@
+Java Launcher: /home/nils/.gradle/jdks/eclipse_adoptium-21-amd64-linux.2/bin/java
+Arguments: '--inJar, /home/nils/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.14/forge-1.21.1-52.1.14-injected.jar, --outJar, /home/nils/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.14_mapped_official_1.21.1/forge-1.21.1-52.1.14_mapped_official_1.21.1.jar, --logFile, accesstransform.log, --atFile, /home/nils/bin/programming/java/minecraft/fabric/cheap craftable gunpowder/build/_atJar_4/parent_at.cfg'
+Classpath:
+ - /home/nils/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.2.14/accesstransformers-8.2.14-fatjar.jar
+Working directory: /home/nils/bin/programming/java/minecraft/fabric/cheap craftable gunpowder/build/_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================
